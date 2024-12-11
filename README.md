@@ -2,7 +2,6 @@
 
 Installs asfald so you can more safely download github releases artifacts.
 
-```
 ```yaml
 name: Asfald Action Demo
 run-name: ${{ github.actor }} is using asfald 🚀
