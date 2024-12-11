@@ -1,5 +1,8 @@
 name: 'Install asfald'
 description: 'Install asfald'
+branding:
+  icon: download-cloud
+  color: blue
 runs:
   using: 'node20'
   main: 'index.js'
