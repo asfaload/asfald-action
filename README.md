@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/asfald@v0.1.0
+      - uses: actions/asfald-action@v0.1.0
       - run: |
           asfald https://github.com/superfly/flyctl/releases/download/v0.3.48/flyctl_0.3.48_Linux_x86_64.tar.gz
 ```
