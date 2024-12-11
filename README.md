@@ -2,7 +2,7 @@
 
 Installs `asfald` so you can more safely download github releases artifacts.
 
-`asfald` will validate the chekcsums of downloaded files against checksums files published by the project as well as the checksums files mirrored on another server.
+`asfald` will validate the checksums of downloaded files against checksums files published by the project as well as the checksums files mirrored on another server.
 This increase your confidence that the files were not tampered with.
 
 ```yaml
