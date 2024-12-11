@@ -1,6 +1,9 @@
 # asfald-action
 
-Installs asfald so you can more safely download github releases artifacts.
+Installs `asfald` so you can more safely download github releases artifacts.
+
+`asfald` will validate the chekcsums of downloaded files against checksums files published by the project as well as the checksums files mirrored on another server.
+This increase your confidence that the files were not tampered with.
 
 ```yaml
 name: Asfald Action Demo
